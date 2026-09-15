@@ -1,0 +1,11 @@
+ASSIGNMENT 1 STARTER FILES
+
+1. Copy this folder to a writable project location.
+2. Read the full Assignment 1 specification before coding.
+3. Implement the product in harborflow_app.py. Additional Python modules are
+   allowed only when your design uses them.
+4. Complete readme.txt and maintain test-ledger.csv during development.
+5. Submit only the files required by the assignment and CodeGrade.
+
+No external JSON or CSV dataset is required for Assignment 1. All operational
+values are entered through the console.

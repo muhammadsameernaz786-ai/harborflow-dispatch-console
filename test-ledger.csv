@@ -1,0 +1,10 @@
+area,test_case,input_summary,expected_result,actual_result,owner,status
+Menu,Close console,Option 1,Closing message printed exactly once,,,Not run
+Reference,Valid lowercase,Lowercase valid reference,Normalized valid reference,,,Not run
+Quote,Decimal values,Decimal distance and weight,Two-decimal quote,,,Not run
+Labels,Duplicates,Mixed case duplicate labels,First-seen unique order,,,Not run
+Capacity,Later item fits,Rejected heavy item followed by lighter item,Later item accepted,,,Not run
+Performance,Boundary delay,Delay of 15 minutes,MINOR DELAY,,,Not run
+Weekly report,Last-day tie,Tied high or low on later day,Last tied day reported,,,Not run
+Validation,Invalid then valid,Invalid value followed by valid value,Only affected prompt repeats,,,Not run
+Scenarios,All services,One distance and weight,Three prices and extrema,,,Not run
