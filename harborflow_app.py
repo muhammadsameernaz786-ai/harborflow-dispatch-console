@@ -34,6 +34,42 @@ print(f"Accepted Parcels : {accepted_count}")
 print(f"Loaded Weight : {loaded_weight:.2f}")
 print(f"Remaining Capacity : {remaining_capacity:.2f}")
 
+# Started Task 6 ( Classify Service Performance )
+
+# Created a function named Classify Performance
+
+def classify_performance(promised, actual, damaged):
+    delay = actual - promised
+
+# Using If-Else Statements 
+
+    if damaged > 0:
+        status = "SERVICE FAILURE"
+    elif delay <= 0:
+        status = "ON TIME"
+    elif delay <= 15:
+        status = "MINOR DELAY"
+    else:
+        status = "MAJOR DELAY"
+
+    return delay, status
+
+# Created another function named Service Performance 
+
+def service_performance():
+    promised = int(input("Promised minutes: "))
+    actual = int(input("Actual minutes: "))
+    damaged = int(input("Damaged parcels: "))
+
+    delay, status = classify_performance(promised, actual, damaged)
+
+    print(f"Delay: {delay} minutes")
+    print(f"Service status: {status}")
+
+service_performance()
+
+
+
 
 
 
